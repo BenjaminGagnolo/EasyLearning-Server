@@ -6,4 +6,5 @@ services:
     startCommand: npm start
     env:
       - name: DATABASE_URL
-        value: "postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}"
+        value: "postgres://elearning_1ycv_user:Z2aBvVwWQXCFi3uZ1fJgPlKBDSzqj62U@dpg-cgrauugrddl6f7fcq08g-a.oregon-postgres.render.com/elearning_1ycv"
+"
