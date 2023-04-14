@@ -7,4 +7,4 @@ services:
     env:
       - name: DATABASE_URL
         value: "postgres://elearning_1ycv_user:Z2aBvVwWQXCFi3uZ1fJgPlKBDSzqj62U@dpg-cgrauugrddl6f7fcq08g-a.oregon-postgres.render.com/elearning_1ycv"
-"
+
