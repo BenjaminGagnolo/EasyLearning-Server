@@ -9,8 +9,8 @@ dotenv.config()
 
 conn.sync({ force: true }).then(async () => {
   await test();
-  server.listen(process.env.DB_PORT, () => {
-    console.log(`Server listening at ${process.env.DB_PORT}`);
+  server.listen(process.env.SV_PORT, () => {
+    console.log(`Server listening at port ${process.env.SV_PORT}`);
   });
 });
 
